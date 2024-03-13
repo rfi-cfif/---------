@@ -27,7 +27,7 @@ with open('23.01.24.txt', 'w') as f:
         for i in v:
             f.write(f'{i[0]}  {i[1][0]}\n')
         f.write('\n')
-    
+
 with open('23.01.24_ans.txt', 'w') as f:
     for k, v in a.items():
         f.write(f'Variant  {str(k)}\n')

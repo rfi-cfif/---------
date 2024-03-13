@@ -23,7 +23,7 @@ def changing(ans):
 #     id_num = [(j, choice(ID[j])) for j in nums]
 #     return id_num
 
-with open('numbers.txt') as f:
+with open('numbers_d.txt') as f:
     num = [[int(i) for i in f.readline().split(', ')] for _ in range(3)]
 
 with open('ID_answers.txt') as f:
@@ -32,7 +32,7 @@ with open('ID_answers.txt') as f:
         n, id, ans = [int(i) if i.isdigit() else i for i in b.split()]
         ID[n] = ID.get(n, []) + [(id, ans)]
 
-with open('people.txt', encoding='utf-8') as f:
+with open('people_d.txt', encoding='utf-8') as f:
     people = []
     peop_ans = {}
     for p in f.readlines():
@@ -40,13 +40,13 @@ with open('people.txt', encoding='utf-8') as f:
         people.append(p[0])
         peop_ans[p[0]] = p[1:]
 
-n = 1
+n = 21
 a = {people[i]: 0 for i in range(n)}
 for i in range(n):
     k, v = people[i], peop_ans[people[i]]
     a[k] = changing(v)
 
-with open('people.txt', 'w', encoding='utf-8') as f:
+with open('people_d.txt', 'w', encoding='utf-8') as f:
     for k, v in a.items():
         f.write(f'{str(k)} ')
         for i in v:
@@ -55,14 +55,14 @@ with open('people.txt', 'w', encoding='utf-8') as f:
             f.write(f'{peop_ans[k][i]} {peop_ans[k][i + 1]} ')
         f.write('\n')
 
-with open('19.02.24.txt', 'w', encoding='utf-8') as f:
+with open('14.03.24.txt', 'w', encoding='utf-8') as f:
     for k, v in a.items():
         f.write(f'{str(k)}\n')
         for i in v:
             f.write(f'{i[0]}  {i[1][0]}\n')
         f.write('\n')
-    
-with open('19.02.24_ans.txt', 'w', encoding='utf-8') as f:
+
+with open('14.03.24_ans.txt', 'w', encoding='utf-8') as f:
     for k, v in a.items():
         f.write(f'{str(k)}\n')
         for i in v:
