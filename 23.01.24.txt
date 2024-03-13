@@ -1,0 +1,255 @@
+Variant  1
+number  16
+id  23627
+answer  1338
+
+number  6
+id  10753
+answer  55
+
+number  15
+id  23183
+answer  34
+
+
+
+Variant  2
+number  23
+id  23664
+answer  30
+
+number  2
+id  10749
+answer  wyzx
+
+number  14
+id  23807
+answer  162947670
+
+
+
+Variant  3
+number  11
+id  4274
+answer  275
+
+number  6
+id  23747
+answer  411
+
+number  14
+id  24070
+answer  140
+
+
+
+Variant  4
+number  7
+id  3502
+answer  a15
+
+number  2
+id  1814
+answer  yxwz
+
+number  14
+id  24068
+answer  3058
+
+
+
+Variant  5
+number  7
+id  2520
+answer  4096
+
+number  8
+id  23769
+answer  3352
+
+number  5
+id  3763
+answer  106
+
+
+
+Variant  6
+number  7
+id  2520
+answer  4096
+
+number  6
+id  23524
+answer  33
+
+number  13
+id  26656
+answer  224
+
+
+
+Variant  7
+number  7
+id  2446
+answer  33
+
+number  3
+id  23711
+answer  300
+
+number  15
+id  23615
+answer  36
+
+
+
+Variant  8
+number  4
+id  2272
+answer  6
+
+number  6
+id  10753
+answer  55
+
+number  15
+id  23615
+answer  36
+
+
+
+Variant  9
+number  11
+id  4243
+answer  70
+
+number  6
+id  23524
+answer  33
+
+number  14
+id  23807
+answer  162947670
+
+
+
+Variant  10
+number  16
+id  13677
+answer  2024
+
+number  3
+id  23401
+answer  1197
+
+number  5
+id  691
+answer  86
+
+
+
+Variant  11
+number  4
+id  1706
+answer  1011
+
+number  2
+id  1814
+answer  yxwz
+
+number  5
+id  23731
+answer  729
+
+
+
+Variant  12
+number  23
+id  23664
+answer  30
+
+number  2
+id  1695
+answer  zyxw
+
+number  5
+id  23741
+answer  25
+
+
+
+Variant  13
+number  16
+id  23627
+answer  1338
+
+number  6
+id  23929
+answer  203
+
+number  5
+id  3763
+answer  106
+
+
+
+Variant  14
+number  4
+id  1702
+answer  101
+
+number  6
+id  23747
+answer  411
+
+number  5
+id  691
+answer  86
+
+
+
+Variant  15
+number  11
+id  4274
+answer  275
+
+number  2
+id  1695
+answer  zyxw
+
+number  15
+id  13676
+answer  58
+
+
+
+Variant  16
+number  23
+id  23202
+answer  105
+
+number  1
+id  11748
+answer  38
+
+number  5
+id  3763
+answer  106
+
+
+
+Variant  17
+number  4
+id  2288
+answer  111
+
+number  6
+id  10753
+answer  55
+
+number  5
+id  23731
+answer  729
+
+
+
